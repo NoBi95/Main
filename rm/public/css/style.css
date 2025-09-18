@@ -1,7 +1,0 @@
-div.dt-container select.dt-input {
-    padding: 4px;
-    width: 80px;
-}
-img, svg, video, canvas, audio, iframe, embed, object {
-    width: 17px;
-}
