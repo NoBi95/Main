@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    serverActions: true, // optional, if you need server actions
+  },
+  turbopack: {
+    // You can leave empty object or remove it if not using Turbopack
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
